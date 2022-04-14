@@ -319,7 +319,6 @@ for epoch in range(num_epochs):
 # In[10]:
 
 
-
 CIFAR10_transform = torchvision.transforms.Compose([torchvision.transforms.ToTensor(),torchvision.transforms.Normalize(mean=(0.4914, 0.4822, 0.4465), std=(0.2023, 0.1994, 0.2010))])
 
 trainset = torchvision.datasets.CIFAR10(root='./data', train=True, download=True, transform=CIFAR10_transform)
@@ -367,6 +366,7 @@ init_lr = 1
 for epoch in range(num_epochs):
     current_lr = adjust_learning_rate(optimizer, epoch, init_lr)
     print('Epoch: {}, Learning rate: {}'.format(epoch+1,current_lr))
+
 
 
 # # Reading material

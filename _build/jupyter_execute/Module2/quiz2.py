@@ -133,6 +133,7 @@ def model(100,10):
    return nn.Linear(100,10)
 
 
+
 # What are the sizes of W and b of the model?
 
 # ```{dropdown} Show answer
@@ -173,7 +174,6 @@ for i, (images, labels) in enumerate(trainloader):
 # 
 
 # In[ ]:
-
 
 
 sequence = torch.tensor(([[4,2,3],[1,5,6],[0,7,2]]))

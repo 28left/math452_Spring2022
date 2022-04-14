@@ -60,7 +60,6 @@ print(my_model.conv1.weight)
 # In[3]:
 
 
-
 nn.init.kaiming_uniform_(my_model.conv1.weight, nonlinearity='relu')
 
 print(my_model.conv1.weight)
@@ -69,7 +68,6 @@ print(my_model.conv1.weight)
 # ### Xavier's initialization
 
 # In[4]:
-
 
 
 nn.init.xavier_uniform_(my_model.conv1.weight,gain=nn.init.calculate_gain('relu'))

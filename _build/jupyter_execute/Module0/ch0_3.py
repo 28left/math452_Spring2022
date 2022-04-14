@@ -89,7 +89,6 @@ IFrame(src="https://cdnapisec.kaltura.com/p/2356971/sp/235697100/embedIframeJs/u
 # In[2]:
 
 
-
 # e.g. This is an example of Python code cell.
 2/8
 

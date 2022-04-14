@@ -222,7 +222,6 @@ import ipywidgets as widgets
 # In[2]:
 
 
-
 m = 92
 n = 35
 print(m > n)
